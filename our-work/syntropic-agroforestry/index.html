@@ -1,0 +1,1255 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Syntropic Agroforestry</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/syntropic_agroforestry/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" type="text/css" rel="stylesheet"/>
+    <style type="text/css">
+@font-face {
+//}</style><script type="text/javascript">
+/*! AxureEx 2018-03-17 | dejongh.dk/license */
+// var $, $axure, $var;
+window.open = window.open;
+window.open = function () {
+  "use strict";
+  function initialize() {
+    if (window.$) {
+      $(document).ready(function () {
+       setTimeout(function () {window.open('javascript:');}, 0);
+      });
+     } else {
+      setTimeout(initialize, 0);
+     }
+  }
+  setTimeout(initialize, 0);
+  if (typeof String.prototype.trim !== "function") {
+    String.prototype.trim = function () {
+      return this.replace(/^\s+|\s+$/g, "");
+    };
+  }
+  var _open = window.open;
+  var __open = function(url, a, b, c) {
+      if (c !== undefined) return _open(url, a, b, c);
+      if (b !== undefined) return _open(url, a, b);
+      if (a !== undefined) return _open(url, a);
+      return _open(url);
+  };
+  return function (url, a, b, c) {
+    if ((url.substring(0, 11) !== "javascript:") || (!$axure)) {
+      if (window.openReplace) {
+        window.openReplace = false;
+        window.location.replace(url);
+        return false;
+      }
+      return __open(url, a, b, c);
+    }
+    if (!$axure.error) {
+      var ignoreError;
+      $axure.error = function (msg) {
+         if (console) console.log(msg);
+        if (!ignoreError) ignoreError = !confirm(msg);
+        return false;
+      };
+      $axure.internal(function ($ax) {
+        $axure.debug = $ax.globalVariableProvider.getVariableValue('Debug') !== '';
+      });
+      if (window.AxureExInitialize) window.AxureExInitialize();
+    }
+    var script = url.substring(11).trim();
+    if (false && console) console.log("** " + script + " **\n");
+    if ((script[0] === '/') && (script[1] === '/')) return false;
+    if ((script[0] == '@') || (script[0] == '#')) {
+      var args = script.split("<,>");
+      var src = args[0].split(":");
+      script = $axure(src[0].trim()).text();
+      if (!script) return $axure.error('Widget "' + src[0] + '" not found.');
+      for (var i = 1; i < args.length; i++) {
+        var l = args[i].split(':');
+        script = script.replace("[[" + l[0].trim() + "]]", JSON.stringify(l.slice(1).join(':')).slice(1, -1).replace("'", "\\'"));
+      }
+      if (src.length > 1) {
+        var frame = $axure(src[1].trim()).$().children("iframe")[0];
+        if (!frame) return $axure.error('Widget InlineFrame "' + src[1] + '" not found.');
+        frame = (frame.contentWindow ? frame.contentWindow : frame.contentDocument.document ? frame.contentDocument.document : frame.contentDocument).document;
+        frame.open("text/html", "replace");
+        frame.write(script);
+        frame.close();
+        return false;
+      }
+    }
+    if (script !== '') {
+      if ($axure.debug) script = eval(script);
+      else try {
+        script = eval(script);
+      } catch (err) {
+        return $axure.error("Exception:\n" + err + "\n\nTrace:\n" + err.stack + "\n\nScript:\n" + script.slice(0, 1024));
+      }
+      if (script) return __open('javascript: ' + JSON.stringify(script) + ';', a, b, c);
+    }
+    return false;
+  };
+}();
+if (console) console.log("** AxureEx **");
+//</script><style type="text/css">{
+}
+    </style>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/syntropic_agroforestry/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Header2 v.1) -->
+
+      <!-- Unnamed (Header v3) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2" class="ax_default">
+        <div id="u2_div" class=""></div>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u3" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u3_div" class=""></div>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u4" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u4_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u4.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u5" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u5_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u5.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u6" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u6_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u6.png"/>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u7" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u7_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u8" class="ax_default" data-left="20" data-top="0" data-width="60" data-height="60">
+
+        <!-- Welcome string (Rectangle) -->
+        <div id="u9" class="ax_default paragraph" data-label="Welcome string">
+          <div id="u9_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u10" class="ax_default image">
+          <img id="u10_img" class="img " src="images/syntropic_agroforestry/u10.png"/>
+        </div>
+      </div>
+
+      <!-- FBlock4: Full screen (Rectangle) -->
+      <div id="u11" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <div id="u11_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u12" class="ax_default" data-left="95" data-top="25" data-width="12" data-height="10">
+
+        <!-- 1 (Rectangle) -->
+        <div id="u13" class="ax_default paragraph ax_default_hidden" data-label="1" style="display:none; visibility: hidden">
+          <div id="u13_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u14" class="ax_default icon">
+          <img id="u14_img" class="img " src="images/syntropic_agroforestry/u14.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u15" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u16" class="ax_default paragraph">
+          <div id="u16_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u17" class="ax_default icon">
+          <img id="u17_img" class="img " src="images/syntropic_agroforestry/u17.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u18" class="ax_default ax_default_hidden" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u19" class="ax_default paragraph">
+          <div id="u19_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u20" class="ax_default icon">
+          <img id="u20_img" class="img " src="images/syntropic_agroforestry/u17.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u21" class="ax_default" data-left="122" data-top="9" data-width="42" data-height="42">
+
+        <!-- Unnamed (Group) -->
+        <div id="u22" class="ax_default" data-left="122" data-top="9" data-width="42" data-height="42">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u23" class="ax_default paragraph">
+            <div id="u23_div" class=""></div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u24" class="ax_default icon">
+          <img id="u24_img" class="img " src="images/syntropic_agroforestry/u24.png"/>
+        </div>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u25" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u25_div" class=""></div>
+      </div>
+
+      <!-- FBlock4: Full screen (Rectangle) -->
+      <div id="u26" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <div id="u26_div" class=""></div>
+        <div id="u26_text" class="text ">
+          <p><span>Syntropic Agroforestry</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Sidebar v1) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u28" class="ax_default paragraph">
+        <div id="u28_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u29" class="ax_default" data-left="0" data-top="0" data-width="232" data-height="1342">
+
+        <!-- Slider (Rectangle) -->
+        <div id="u30" class="ax_default paragraph" data-label="Slider">
+          <div id="u30_div" class=""></div>
+        </div>
+
+        <!-- Join teams (Group) -->
+        <div id="u31" class="ax_default" data-label="Join teams" data-left="0" data-top="1069" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u32" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u32_div" class=""></div>
+            <div id="u32_text" class="text ">
+              <p><span>Open positions</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u33" class="ax_default paragraph">
+            <div id="u33_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u34" class="ax_default shape1">
+            <img id="u34_img" class="img " src="images/syntropic_agroforestry/u34.png"/>
+          </div>
+        </div>
+
+        <!-- Tarumim teams (Group) -->
+        <div id="u35" class="ax_default" data-label="Tarumim teams" data-left="0" data-top="1112" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u36" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u36_div" class=""></div>
+            <div id="u36_text" class="text ">
+              <p><span>Tarumim teams</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u37" class="ax_default paragraph">
+            <div id="u37_div" class=""></div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u38" class="ax_default icon">
+          <img id="u38_img" class="img " src="images/syntropic_agroforestry/u38.png"/>
+        </div>
+
+        <!-- Volunteer (Rectangle) -->
+        <div id="u39" class="ax_default box_1" data-label="Volunteer">
+          <div id="u39_div" class=""></div>
+          <div id="u39_text" class="text ">
+            <p><span>Get Involved</span></p>
+          </div>
+        </div>
+
+        <!-- Boa Vista pilot project (Group) -->
+        <div id="u40" class="ax_default" data-label="Boa Vista pilot project" data-left="0" data-top="505" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u41" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u41_div" class=""></div>
+            <div id="u41_text" class="text ">
+              <p><span>Boa Vista pilot project</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u42" class="ax_default paragraph">
+            <div id="u42_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u43" class="ax_default shape1">
+            <img id="u43_img" class="img " src="images/syntropic_agroforestry/u43.png"/>
+          </div>
+        </div>
+
+        <!-- Projects development (Group) -->
+        <div id="u44" class="ax_default" data-label="Projects development" data-left="0" data-top="360" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u45" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u45_div" class=""></div>
+            <div id="u45_text" class="text ">
+              <p><span>Project development</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u46" class="ax_default paragraph">
+            <div id="u46_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u47" class="ax_default icon">
+            <img id="u47_img" class="img " src="images/syntropic_agroforestry/u47.png"/>
+          </div>
+        </div>
+
+        <!-- Projects (Rectangle) -->
+        <div id="u48" class="ax_default box_1" data-label="Projects">
+          <div id="u48_div" class=""></div>
+          <div id="u48_text" class="text ">
+            <p><span>Projects</span></p>
+          </div>
+        </div>
+
+        <!-- Sustainable Development Goals (Group) -->
+        <div id="u49" class="ax_default" data-label="Sustainable Development Goals" data-left="0" data-top="822" data-width="220" data-height="42">
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u50" class="ax_default paragraph">
+            <div id="u50_div" class=""></div>
+          </div>
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u51" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u51_div" class=""></div>
+            <div id="u51_text" class="text ">
+              <p><span>Sustainable Development Goals</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u52" class="ax_default paragraph">
+            <div id="u52_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Image) -->
+          <div id="u53" class="ax_default image">
+            <img id="u53_img" class="img " src="images/syntropic_agroforestry/u53.png"/>
+          </div>
+        </div>
+
+        <!-- Resources (Rectangle) -->
+        <div id="u54" class="ax_default box_1" data-label="Resources">
+          <div id="u54_div" class=""></div>
+          <div id="u54_text" class="text ">
+            <p><span>Locations</span></p>
+          </div>
+        </div>
+
+        <!-- Tarumim.Club (Group) -->
+        <div id="u55" class="ax_default" data-label="Tarumim.Club" data-left="0" data-top="591" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u56" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u56_div" class=""></div>
+            <div id="u56_text" class="text ">
+              <p><span style="font-family:'Roboto';font-weight:400;">Tarumim</span><span style="font-family:'Roboto';font-weight:500;">.Club</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u57" class="ax_default paragraph">
+            <div id="u57_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u58" class="ax_default shape1">
+            <img id="u58_img" class="img " src="images/syntropic_agroforestry/u58.png"/>
+          </div>
+        </div>
+
+        <!-- Submit your project (Group) -->
+        <div id="u59" class="ax_default" data-label="Submit your project" data-left="0" data-top="548" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u60" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u60_div" class=""></div>
+            <div id="u60_text" class="text ">
+              <p><span>Submit your project</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u61" class="ax_default paragraph">
+            <div id="u61_div" class=""></div>
+          </div>
+
+          <!-- address (Shape) -->
+          <div id="u62" class="ax_default shape" data-label="address">
+            <img id="u62_img" class="img " src="images/syntropic_agroforestry/address_u62.png"/>
+          </div>
+        </div>
+
+        <!-- Tarumim text (Group) -->
+        <div id="u63" class="ax_default" data-label="Tarumim text" data-left="0" data-top="0" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u64" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u64_div" class=""></div>
+            <div id="u64_text" class="text ">
+              <p><span>Tarumim</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u65" class="ax_default paragraph">
+            <div id="u65_div" class=""></div>
+          </div>
+
+          <!-- tree (Shape) -->
+          <div id="u66" class="ax_default shape" data-label="tree">
+            <img id="u66_img" class="img " src="images/syntropic_agroforestry/tree_u66.png"/>
+          </div>
+        </div>
+
+        <!-- About us text (Group) -->
+        <div id="u67" class="ax_default" data-label="About us text" data-left="0" data-top="43" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u68" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u68_div" class=""></div>
+            <div id="u68_text" class="text ">
+              <p><span>About us</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u69" class="ax_default paragraph">
+            <div id="u69_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u70" class="ax_default shape1">
+            <img id="u70_img" class="img " src="images/syntropic_agroforestry/u70.png"/>
+          </div>
+        </div>
+
+        <!-- Team text (Group) -->
+        <div id="u71" class="ax_default" data-label="Team text" data-left="0" data-top="86" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u72" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u72_div" class=""></div>
+            <div id="u72_text" class="text ">
+              <p><span>Team</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u73" class="ax_default paragraph">
+            <div id="u73_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u74" class="ax_default shape2">
+            <img id="u74_img" class="img " src="images/syntropic_agroforestry/u74.png"/>
+          </div>
+        </div>
+
+        <!-- Social media text (Group) -->
+        <div id="u75" class="ax_default" data-label="Social media text" data-left="0" data-top="129" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u76" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u76_div" class=""></div>
+            <div id="u76_text" class="text ">
+              <p><span>Social Media</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u77" class="ax_default paragraph">
+            <div id="u77_div" class=""></div>
+          </div>
+
+          <!-- megaphone (Shape) -->
+          <div id="u78" class="ax_default shape" data-label="megaphone">
+            <img id="u78_img" class="img " src="images/syntropic_agroforestry/megaphone_u78.png"/>
+          </div>
+        </div>
+
+        <!-- Partnerships text (Group) -->
+        <div id="u79" class="ax_default" data-label="Partnerships text" data-left="0" data-top="172" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u80" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u80_div" class=""></div>
+            <div id="u80_text" class="text ">
+              <p><span>Partnerships</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u81" class="ax_default paragraph">
+            <div id="u81_div" class=""></div>
+          </div>
+
+          <!-- network (Shape) -->
+          <div id="u82" class="ax_default shape" data-label="network">
+            <img id="u82_img" class="img " src="images/syntropic_agroforestry/network_u82.png"/>
+          </div>
+        </div>
+
+        <!-- Contact us text (Group) -->
+        <div id="u83" class="ax_default" data-label="Contact us text" data-left="0" data-top="215" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u84" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u84_div" class=""></div>
+            <div id="u84_text" class="text ">
+              <p><span>Contact us</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u85" class="ax_default paragraph">
+            <div id="u85_div" class=""></div>
+          </div>
+
+          <!-- flow branch (Shape) -->
+          <div id="u86" class="ax_default shape" data-label="flow branch">
+            <img id="u86_img" class="img " src="images/syntropic_agroforestry/flow_branch_u86.png"/>
+          </div>
+        </div>
+
+        <!-- References (Group) -->
+        <div id="u87" class="ax_default" data-label="References" data-left="0" data-top="967" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u88" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u88_div" class=""></div>
+            <div id="u88_text" class="text ">
+              <p><span>References</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u89" class="ax_default paragraph">
+            <div id="u89_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u90" class="ax_default icon">
+            <img id="u90_img" class="img " src="images/syntropic_agroforestry/u90.png"/>
+          </div>
+        </div>
+
+        <!-- Deforestation and a joint Reforestation vision (Group) -->
+        <div id="u91" class="ax_default" data-label="Deforestation and a joint Reforestation vision" data-left="0" data-top="317" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u92" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u92_div" class=""></div>
+            <div id="u92_text" class="text ">
+              <p><span>Regenerating forests</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u93" class="ax_default paragraph">
+            <div id="u93_div" class=""></div>
+          </div>
+
+          <!-- hourglass empty (Shape) -->
+          <div id="u94" class="ax_default shape2" data-label="hourglass empty">
+            <img id="u94_img" class="img " src="images/syntropic_agroforestry/hourglass_empty_u94.png"/>
+          </div>
+        </div>
+
+        <!-- Carbon capture (Group) -->
+        <div id="u95" class="ax_default" data-label="Carbon capture" data-left="0" data-top="693" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u96" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u96_div" class=""></div>
+            <div id="u96_text" class="text ">
+              <p><span>Carbon capture</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u97" class="ax_default paragraph">
+            <div id="u97_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u98" class="ax_default icon">
+            <img id="u98_img" class="img " src="images/syntropic_agroforestry/u98.png"/>
+          </div>
+        </div>
+
+        <!-- Our Work text (Rectangle) -->
+        <div id="u99" class="ax_default box_1" data-label="Our Work text">
+          <div id="u99_div" class=""></div>
+          <div id="u99_text" class="text ">
+            <p><span>Our Work</span></p>
+          </div>
+        </div>
+
+        <!-- Biodiversity (Group) -->
+        <div id="u100" class="ax_default" data-label="Biodiversity" data-left="0" data-top="736" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u101" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u101_div" class=""></div>
+            <div id="u101_text" class="text ">
+              <p><span>Biodiversity</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u102" class="ax_default paragraph">
+            <div id="u102_div" class=""></div>
+          </div>
+
+          <!-- area graph (Shape) -->
+          <div id="u103" class="ax_default shape" data-label="area graph">
+            <img id="u103_img" class="img " src="images/syntropic_agroforestry/area_graph_u103.png"/>
+          </div>
+        </div>
+
+        <!-- Syntropic Agroforestry (Group) -->
+        <div id="u104" class="ax_default" data-label="Syntropic Agroforestry" data-left="0" data-top="403" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u105" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u105_div" class=""></div>
+            <div id="u105_text" class="text ">
+              <p><span>Syntropic Agroforestry</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u106" class="ax_default paragraph">
+            <div id="u106_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u107" class="ax_default icon">
+            <img id="u107_img" class="img " src="images/syntropic_agroforestry/u107.png"/>
+          </div>
+        </div>
+
+        <!-- Minas Gerais (Group) -->
+        <div id="u108" class="ax_default" data-label="Minas Gerais" data-left="0" data-top="924" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u109" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u109_div" class=""></div>
+            <div id="u109_text" class="text ">
+              <p><span>Minas Gerais</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u110" class="ax_default paragraph">
+            <div id="u110_div" class=""></div>
+          </div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u111" class="ax_default shape1">
+          <img id="u111_img" class="img " src="images/syntropic_agroforestry/u43.png"/>
+        </div>
+
+        <!-- Volunteer (Group) -->
+        <div id="u112" class="ax_default" data-label="Volunteer" data-left="0" data-top="1155" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u113" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u113_div" class=""></div>
+            <div id="u113_text" class="text ">
+              <p><span>Volunteer</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u114" class="ax_default paragraph">
+            <div id="u114_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u115" class="ax_default shape3">
+            <img id="u115_img" class="img " src="images/syntropic_agroforestry/u115.png"/>
+          </div>
+        </div>
+
+        <!-- The Challenge (Rectangle) -->
+        <div id="u116" class="ax_default box_1" data-label="The Challenge">
+          <div id="u116_div" class=""></div>
+          <div id="u116_text" class="text ">
+            <p><span>The Challenge</span></p>
+          </div>
+        </div>
+
+        <!-- The Water Cycle (Group) -->
+        <div id="u117" class="ax_default" data-label="The Water Cycle" data-left="0" data-top="779" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u118" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u118_div" class=""></div>
+            <div id="u118_text" class="text ">
+              <p><span>The Water Cycle</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u119" class="ax_default paragraph">
+            <div id="u119_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u120" class="ax_default shape3">
+            <img id="u120_img" class="img " src="images/syntropic_agroforestry/u120.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u121" class="ax_default" data-left="0" data-top="0" data-width="0" data-height="0">
+        </div>
+
+        <!-- Volunteer (Group) -->
+        <div id="u122" class="ax_default" data-label="Volunteer" data-left="0" data-top="1198" data-width="220" data-height="42">
+
+          <!-- FBlock4: Full screen (Rectangle) -->
+          <div id="u123" class="ax_default paragraph" data-label="FBlock4: Full screen">
+            <div id="u123_div" class=""></div>
+            <div id="u123_text" class="text ">
+              <p><span>Support projects</span></p>
+            </div>
+          </div>
+
+          <!-- Unnamed (Rectangle) -->
+          <div id="u124" class="ax_default paragraph">
+            <div id="u124_div" class=""></div>
+          </div>
+
+          <!-- Unnamed (Shape) -->
+          <div id="u125" class="ax_default icon">
+            <img id="u125_img" class="img " src="images/syntropic_agroforestry/u125.png"/>
+          </div>
+        </div>
+
+        <!-- Unnamed (Group) -->
+        <div id="u126" class="ax_default" data-left="0" data-top="1300" data-width="220" data-height="42">
+
+          <!-- Volunteer (Group) -->
+          <div id="u127" class="ax_default" data-label="Volunteer" data-left="0" data-top="1300" data-width="220" data-height="42">
+
+            <!-- FBlock4: Full screen (Rectangle) -->
+            <div id="u128" class="ax_default paragraph" data-label="FBlock4: Full screen">
+              <div id="u128_div" class=""></div>
+              <div id="u128_text" class="text ">
+                <p><span>Join our mailing list</span></p>
+              </div>
+            </div>
+          </div>
+
+          <!-- email (Shape) -->
+          <div id="u129" class="ax_default shape" data-label="email">
+            <img id="u129_img" class="img " src="images/syntropic_agroforestry/email_u129.png"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u130" class="ax_default" data-left="178" data-top="1343" data-width="42" data-height="42">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u131" class="ax_default paragraph">
+          <div id="u131_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u132" class="ax_default image">
+          <img id="u132_img" class="img " src="images/syntropic_agroforestry/u132.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Inline Frame) -->
+      <div id="u133" class="ax_default">
+        <iframe id="u133_input" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u134" class="ax_default ax_default_unplaced" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u135" class="ax_default paragraph ax_default_unplaced" style="display:none; visibility: hidden">
+          <div id="u135_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u136" class="ax_default shape1 ax_default_unplaced" style="display:none; visibility: hidden">
+          <img id="u136_img" class="img " src="resources/images/transparent.gif"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Footer2 v.1) -->
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u138" class="ax_default">
+        <div id="u138_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u139" class="ax_default">
+        <div id="u139_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u140" class="ax_default" data-left="34" data-top="230" data-width="132" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u141" class="ax_default box_1">
+          <div id="u141_div" class=""></div>
+          <div id="u141_text" class="text ">
+            <p><span>Facebook</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u142" class="ax_default box_1">
+          <div id="u142_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u143" class="ax_default shape3">
+          <img id="u143_img" class="img " src="images/syntropic_agroforestry/u143.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u144" class="ax_default box_1">
+        <div id="u144_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u145" class="ax_default box_1">
+        <div id="u145_div" class=""></div>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u146" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u146_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u146.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u147" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u147_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u147.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u148" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u148_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u148.png"/>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u149" class="ax_default" data-left="34" data-top="98" data-width="228" data-height="42">
+
+        <!-- FBlock4: Full screen (Rectangle) -->
+        <div id="u150" class="ax_default paragraph" data-label="FBlock4: Full screen">
+          <div id="u150_div" class=""></div>
+          <div id="u150_text" class="text ">
+            <p><span>Tarumim.org</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Image) -->
+        <div id="u151" class="ax_default image">
+          <img id="u151_img" class="img " src="images/syntropic_agroforestry/u10.png"/>
+        </div>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u152" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u152_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u152.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u153" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u153_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u153.png"/>
+      </div>
+
+      <!-- FBlock4: Full screen (Shape) -->
+      <div id="u154" class="ax_default paragraph" data-label="FBlock4: Full screen">
+        <img id="u154_img" class="img " src="images/syntropic_agroforestry/fblock4__full_screen_u154.png"/>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u155" class="ax_default" data-left="34" data-top="160" data-width="219" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u156" class="ax_default box_1">
+          <div id="u156_div" class=""></div>
+          <div id="u156_text" class="text ">
+            <p><span style="color:#999999;">Tarumim</span><span style="color:#BCBCBC;">dot</span><span style="color:#999999;">Org</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u157" class="ax_default box_1">
+          <div id="u157_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u158" class="ax_default icon">
+          <img id="u158_img" class="img " src="images/syntropic_agroforestry/u158.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u159" class="ax_default" data-left="34" data-top="195" data-width="219" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u160" class="ax_default box_1">
+          <div id="u160_div" class=""></div>
+          <div id="u160_text" class="text ">
+            <p><span>Instagram</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u161" class="ax_default box_1">
+          <div id="u161_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u162" class="ax_default icon">
+          <img id="u162_img" class="img " src="images/syntropic_agroforestry/u162.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u163" class="ax_default">
+        <div id="u163_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u164" class="ax_default" data-left="43" data-top="374" data-width="197" data-height="42">
+
+        <!-- Unnamed (SVG) -->
+        <div id="u165" class="ax_default image">
+          <img id="u165_img" class="img " src="images/syntropic_agroforestry/u165.svg"/>
+        </div>
+
+        <!-- FBlock4: Full screen (Rectangle) -->
+        <div id="u166" class="ax_default paragraph" data-label="FBlock4: Full screen">
+          <div id="u166_div" class=""></div>
+          <div id="u166_text" class="text ">
+            <p><span>Tarumim.org&nbsp; </span><span style="color:#999999;">v.26October2018</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Group) -->
+      <div id="u167" class="ax_default" data-left="34" data-top="265" data-width="155" data-height="32">
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u168" class="ax_default box_1">
+          <div id="u168_div" class=""></div>
+          <div id="u168_text" class="text ">
+            <p><span>Mailing list</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Rectangle) -->
+        <div id="u169" class="ax_default box_1">
+          <div id="u169_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (Shape) -->
+        <div id="u170" class="ax_default shape1">
+          <img id="u170_img" class="img " src="images/syntropic_agroforestry/u170.png"/>
+        </div>
+      </div>
+
+      <!-- dropbox paper (Group) -->
+      <div id="u171" class="ax_default ax_default_unplaced" data-label="dropbox paper" title="Dropbox Paper document" style="display:none; visibility: hidden" data-left="0" data-top="0" data-width="0" data-height="0">
+
+        <!-- dropbox paper (Rectangle) -->
+        <div id="u172" class="ax_default box_1" data-label="dropbox paper">
+          <div id="u172_div" class=""></div>
+        </div>
+
+        <!-- paper (Shape) -->
+        <div id="u173" class="ax_default icon" data-label="paper">
+          <img id="u173_img" class="img " src="images/syntropic_agroforestry/paper_u173.png"/>
+        </div>
+      </div>
+
+      <!-- H272 1 (Rectangle) -->
+      <div id="u174" class="ax_default box_1" data-label="H272 1">
+        <div id="u174_div" class=""></div>
+        <div id="u174_text" class="text ">
+          <p><span>Syntropic Agroforestry</span></p>
+        </div>
+      </div>
+
+      <!-- H272 1 (Rectangle) [footnote] -->
+      <div id="u174_ann" class="annotation"></div>
+
+      <!-- body (Rectangle) -->
+      <div id="u175" class="ax_default box_1" data-label="body">
+        <div id="u175_div" class=""></div>
+        <div id="u175_text" class="text ">
+          <p style="font-size:20px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">Ecosystem and Economic Health through Reforestation</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';font-weight:700;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">Poverty, population growth and intensive farming have put immense pressures on the land. While people may want to conserve their forests or regenerate pasture, they are often too poor to have that luxury.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">With Syntropic Agroforestry, land is regenerated by planting grass, herb and tree species in sequence, working in synch with natural cycles to provide food security and local self-sufficiency. ‘Syntropy’ refers to ‘increasing complexity’. Planting is mixed, not monoculture, and it generates agricultural produce from the very first months to sustain the livelihoods of those living in synergy with nature.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">One hectare produces:</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';font-weight:700;">Agroforestry:</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">- 40 tonnes of up to 50 different crops over an extended period</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';font-weight:700;">Monoculture:</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">- Around 3 tonnes of soya (</span><a id="u176" class="link"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;color:#0000FF;">national average</span></a><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">), all at once.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Bold', 'Roboto Bold', 'Roboto';font-weight:700;">Cattle:</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">- Just over one cow (1.08 cows, </span><a id="u177" class="link"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;color:#0000FF;">national average</span></a><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">).</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:20px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">High Yield, High Intensity</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">Trees are heavily pruned as they grow, which stimulates intense growth while allowing light to the crops. The cuttings protect the soil and enrich it as they biodegrade, preparing the land for larger species and the next stage of regeneration. Agroforestry sites have on average</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">4kg of dry organic matter per m², producing&nbsp; 6-10 kg of mulch per year. The mulch protects the soil from erosion and preserves water. Crops require no fertiliser, and can go for over a month without watering.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:20px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">Ecological Solutions must address Human Problems to be part of a Sustainable Future.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">Converting pasture and monoculture into productive forest is a different strategy to most other reforestation or conservation initiatives. Tarumim supports and researches high-biodiversity, high-yield, high-impact systems of sustainable agroforestry as attractive alternatives to conventional farming for rural people.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">An integrated system of land regeneration can provide a sustainable income and housing for stewards of the land, while mitigating the consequences of climate change at the local and global level.</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;">As coffee farmer João comments:</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:20px;"><span style="font-family:'Roboto-Light', 'Roboto Light', 'Roboto';font-weight:200;">“This system enabled us to reconcile all our desires. The regeneration of the forest takes place in a highly productive fashion, improving soil, water, and food production, while integrating we human beings into the natural system, and serving as a vehicle for community integration.”</span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p><p style="font-size:16px;"><span style="font-family:'Roboto-Regular', 'Roboto';font-weight:400;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u178" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u178_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u179" class="ax_default paragraph">
+        <div id="u179_div" class=""></div>
+        <div id="u179_text" class="text ">
+          <p style="font-size:12px;"><span style="color:#999999;">Photo by </span><span style="text-decoration:underline;color:#999999;">Laszlo Ilyes</span></p><p style="font-size:15px;"><span style="color:#1E1E1E;"><br></span></p><p style="font-size:12px;"><span style="color:#666666;">Field with onions.</span></p><p style="font-size:12px;"><span style="color:#666666;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u180" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u180_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u181" class="ax_default paragraph">
+        <div id="u181_div" class=""></div>
+        <div id="u181_text" class="text ">
+          <p style="font-size:12px;"><span style="color:#999999;">Photo by </span><span style="text-decoration:underline;color:#999999;">Laszlo Ilyes</span></p><p style="font-size:15px;"><span style="color:#1E1E1E;"><br></span></p><p style="font-size:12px;"><span style="color:#666666;">The term ‘syntropy’ in agroforestry refers to ‘increasing complexity’ and therefore biodiversity and ecosystem service provision within the system.</span></p><p style="font-size:12px;"><span style="color:#666666;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u182" class="ax_default box_1">
+        <div id="u182_div" class=""></div>
+        <div id="u182_text" class="text ">
+          <p><span>#natural succession</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u183" class="ax_default box_1">
+        <div id="u183_div" class=""></div>
+        <div id="u183_text" class="text ">
+          <p><span>#socio-economic impact analysis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u184" class="ax_default box_1">
+        <div id="u184_div" class=""></div>
+        <div id="u184_text" class="text ">
+          <p><span>#ethics</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u185" class="ax_default image">
+        <img id="u185_img" class="img " src="images/syntropic_agroforestry/u185.png"/>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u186" class="ax_default image">
+        <img id="u186_img" class="img " src="images/syntropic_agroforestry/u186.png"/>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u187" class="ax_default box_1">
+        <div id="u187_div" class=""></div>
+        <div id="u187_text" class="text ">
+          <p><span>#impact assessment</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u188" class="ax_default box_1">
+        <div id="u188_div" class=""></div>
+        <div id="u188_text" class="text ">
+          <p><span>#socio-economic impact analysis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u189" class="ax_default box_1">
+        <div id="u189_div" class=""></div>
+        <div id="u189_text" class="text ">
+          <p><span>#ethics</span></p>
+        </div>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u190" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u190_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u191" class="ax_default paragraph">
+        <div id="u191_div" class=""></div>
+        <div id="u191_text" class="text ">
+          <p style="font-size:12px;"><span style="color:#999999;">Photo by </span><span style="text-decoration:underline;color:#999999;">Laszlo Ilyes</span></p><p style="font-size:15px;"><span style="color:#1E1E1E;"><br></span></p><p style="font-size:12px;"><span style="color:#666666;">João, farming coffee with Syntropic Agroforestry</span></p><p style="font-size:12px;"><span style="color:#666666;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u192" class="ax_default box_1">
+        <div id="u192_div" class=""></div>
+        <div id="u192_text" class="text ">
+          <p><span>#impact assessment</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u193" class="ax_default box_1">
+        <div id="u193_div" class=""></div>
+        <div id="u193_text" class="text ">
+          <p><span>#socio-economic impact analysis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u194" class="ax_default box_1">
+        <div id="u194_div" class=""></div>
+        <div id="u194_text" class="text ">
+          <p><span>#ethics</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u195" class="ax_default image">
+        <img id="u195_img" class="img " src="images/syntropic_agroforestry/u195.png"/>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u196" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u196_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u197" class="ax_default paragraph">
+        <div id="u197_div" class=""></div>
+        <div id="u197_text" class="text ">
+          <p style="font-size:12px;"><span style="color:#999999;">Photo by </span><span style="text-decoration:underline;color:#999999;">Laszlo Ilyes</span></p><p style="font-size:15px;"><span style="color:#1E1E1E;"><br></span></p><p style="font-size:12px;"><span style="color:#666666;">Conventional coffee farming</span></p><p style="font-size:12px;"><span style="color:#666666;"><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u198" class="ax_default box_1">
+        <div id="u198_div" class=""></div>
+        <div id="u198_text" class="text ">
+          <p><span>#impact assessment</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u199" class="ax_default box_1">
+        <div id="u199_div" class=""></div>
+        <div id="u199_text" class="text ">
+          <p><span>#socio-economic impact analysis</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u200" class="ax_default box_1">
+        <div id="u200_div" class=""></div>
+        <div id="u200_text" class="text ">
+          <p><span>#ethics</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u201" class="ax_default image">
+        <img id="u201_img" class="img " src="images/syntropic_agroforestry/u201.png"/>
+      </div>
+
+      <!-- Welcome string (Rectangle) -->
+      <div id="u202" class="ax_default paragraph" data-label="Welcome string">
+        <div id="u202_div" class=""></div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u203" class="ax_default paragraph">
+        <div id="u203_div" class=""></div>
+        <div id="u203_text" class="text ">
+          <p style="font-size:12px;"><span style="color:#999999;">YouTube Channel </span><span style="text-decoration:underline;color:#999999;">Agenda Gotsch</span></p><p style="font-size:15px;"><span style="color:#1E1E1E;"><br></span></p><p style="font-size:12px;"><span style="color:#666666;">&quot;Life in Syntropy&quot; is the new short film from Agenda Gotsch made specially to be presented at COP21 - Paris. This film put together some of the most remarkable experiences in Syntropic Agriculture, with brand new images and interviews.</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u204" class="ax_default image">
+        <img id="u204_img" class="img " src="images/syntropic_agroforestry/u204.png"/>
+      </div>
+
+      <!-- Unnamed (Inline Frame) -->
+      <div id="u205" class="ax_default">
+        <iframe id="u205_input" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u206" class="ax_default image">
+        <img id="u206_img" class="img " src="images/syntropic_agroforestry/u206.png"/>
+      </div>
+    </div>
+  </body>
+</html>
